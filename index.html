@@ -4,38 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icon-instagram.png" type="image/x-icon">
     <title>Instagram</title>
 </head>
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
+    <main>
+        <div class="contain">
+            <div class="container-phone">
+                <figure>
+                    <img src="./img/instagram-celular.png" alt="Celular exibindo a conta do Instagram">
+                </figure>
+            </div>
+            <div class="container-login">
+                <div class="group-login">
+                    <figure>
+                        <img src="./img/instagram-logo.png" alt="Logo do Instagram">
+                    </figure>
+                        <form>
+                            <input type="email" name="email" id="email"class="login email" placeholder="Email">
+                            <input type="password" name="password" id="pwd" class="login senha" placeholder="Senha">
+                            <button class="btn">Entrar</button>
+                        </form>
+                        <div class="division">
+                            <div class="line"></div>
+                            <p>Ou</p>
+                            <div class="line"></div>
+                        </div>
+                        <div class="login-options">
+                            <img src="./img/icon-facebook.png" alt="Logo do Facebook">
+                            <a href="#" class="login-facebook">Entrar com o Facebook</a>
+                            <a href="#" class="forgot-pwd">Esqueceu a senha?</a>
+                        </div>
+                    </div>
+                    <section class="cadastro-app">
+                        <div class="cadastro">
+                            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                        </div>
+                        Obtenha o aplicativo.
+                        <div class="app">
+                            <a href="https://apps.apple.com/br/app/instagram/id389801252"><img src="./img/apple-button.png" alt="Imagem de download do Instagram na App Store"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en&gl=US"><img src="./img/googleplay-button.png" alt="Imagem de download do Instagram na Google Play" class="google-play"></a>
+                        </div>
+                    </section>
+            </div>
         </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
-                </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
-            </div>
-        </div>
+    </main>
+    <footer>
+    <div class="links-bottom">
+
     </div>
+    </footer>
 </body>
 </html>
